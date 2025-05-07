@@ -4,6 +4,7 @@ import com.google.common.graph.MutableValueGraph;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import org.acme.Entities.Estacao;
+import org.acme.Services.GrafoService;
 
 
 import java.util.Set;
@@ -12,7 +13,7 @@ import java.util.Set;
 public class GrafoRepository {
 
     @Inject
-    org.jjvgroup.Services.GrafoService grafoService;
+    GrafoService grafoService;
 
     public GrafoRepository() {
         System.out.println("construtor executado com sucesso");

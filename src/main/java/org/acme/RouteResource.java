@@ -10,6 +10,7 @@ import jakarta.ws.rs.core.Response;
 import org.acme.Entities.Estacao;
 import org.acme.Entities.Usuario;
 import org.acme.Repositories.*;
+import org.acme.Services.GrafoService;
 
 
 import java.util.List;
@@ -40,7 +41,7 @@ public class RouteResource {
     GrafoRepository grafoRepository;
 
     @Inject
-    org.jjvgroup.Services.GrafoService grafoService;
+    GrafoService grafoService;
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
