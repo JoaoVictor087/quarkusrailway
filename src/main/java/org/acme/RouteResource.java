@@ -50,22 +50,22 @@ public class RouteResource {
         Usuario usuario = new Usuario();
 
         String estacaoOrigem = rota.estacaoOrigem();
-        for (Estacao estacao:grafo.nodes()){
-            if (estacaoOrigem.equalsIgnoreCase(estacao.getNome())){
+        for (Estacao estacao : grafo.nodes()) {
+            if (estacaoOrigem.equalsIgnoreCase(estacao.getNome())) {
                 usuario.setOrigem(estacao);
             }
         }
 
         String estacaoDestino = rota.estacaoDestino();
-        for (Estacao estacao:grafo.nodes()){
-            if (estacaoDestino.equalsIgnoreCase(estacao.getNome())){
+        for (Estacao estacao : grafo.nodes()) {
+            if (estacaoDestino.equalsIgnoreCase(estacao.getNome())) {
                 usuario.setDestino(estacao);
             }
         }
 
         List<Estacao> resultado = aEstrelaRepository.calcularRota(usuario, grafo);
 
-        if (resultado.isEmpty()){
+        if (resultado.isEmpty()) {
             return Response.status(Response.Status.NOT_FOUND)
                     .entity("Rota não encontrada")
                     .build();
@@ -77,6 +77,7 @@ public class RouteResource {
 
         RouteResponse resultadoMapeado = new RouteResponse(caminhoEmNomes);
         return Response.ok(resultadoMapeado).build();
+
 
     }
 }
