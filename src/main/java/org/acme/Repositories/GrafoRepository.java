@@ -79,7 +79,7 @@ public class GrafoRepository {
         Estacao guilherminaEsperanca = new Estacao("Guilhermina Esperança",-23.52913764697435, -46.516470168238115);
         Estacao patriarcaVilaRe = new Estacao("Patriarca - Vila Ré", -23.53105629449159, -46.501390761599794);
         Estacao arthurAlvim = new Estacao("Arthur Alvim",-23.540475161953534, -46.48433309766649);
-        Estacao corinthiansItaquera = new Estacao("Corinthians",-23.542078745535335, -46.47104960667776);
+        Estacao corinthiansItaquera = new Estacao("Corinthians - Itaquera",-23.542078745535335, -46.47104960667776);
         //Linha 4 - Amarela
         Estacao vilaSonia = new Estacao("Vila Sônia",-23.59160639371781, -46.7354737651864);
         Estacao saoPauloMorumbi = new Estacao("São Paulo - Morumbi",-23.586486914796996, -46.723759148434446);
