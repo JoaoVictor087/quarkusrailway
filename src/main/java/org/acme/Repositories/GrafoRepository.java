@@ -200,7 +200,7 @@ public class GrafoRepository {
         Estacao calmonViana = new Estacao("Calmon Viana", -23.524934980067957, -46.33299784255984);
         Estacao suzano = new Estacao("Suzano", -23.53383042017032, -46.307817475940155);
         Estacao jundiapeba = new Estacao("Jundiapeba", -23.542170869024346, -46.25781534254193);
-        Estacao brasCubas = new Estacao("Brás Cubas", -23.536005299948584, -46.224705750487686);
+        Estacao brazCubas = new Estacao("Braz Cubas", -23.536005299948584, -46.224705750487686);
         Estacao mogiDasCruzes = new Estacao("Mogi Das Cruzes", -23.521092262741938, -46.19671721928189);
         Estacao estudantes = new Estacao("Estudantes", -23.515243654012274, -46.184066569956194);
         //Linha 12 - Safira
@@ -402,8 +402,8 @@ public class GrafoRepository {
         grafo.putEdgeValue(poa,calmonViana,1140.0);
         grafo.putEdgeValue(calmonViana,suzano,2760.0);
         grafo.putEdgeValue(suzano,jundiapeba,5450.0);
-        grafo.putEdgeValue(jundiapeba,brasCubas,3480.0);
-        grafo.putEdgeValue(brasCubas,mogiDasCruzes,3410.0);
+        grafo.putEdgeValue(jundiapeba,brazCubas,3480.0);
+        grafo.putEdgeValue(brazCubas,mogiDasCruzes,3410.0);
         grafo.putEdgeValue(mogiDasCruzes,estudantes,1450.0);
         //Linha 12 - Safira
         grafo.putEdgeValue(tatuape,engenheiroGoulart,8920.0);
