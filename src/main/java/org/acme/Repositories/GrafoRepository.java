@@ -154,7 +154,7 @@ public class GrafoRepository {
         //presidentealtino
         Estacao ceasa = new Estacao("Ceasa", -23.537276859352723, -46.74232719760173);
         Estacao villaLobosJaguare = new Estacao("Villa Lobos - Jaguaré", -23.545973514939888, -46.73261628530629);
-        Estacao cidadeUniversitaria = new Estacao("Cidade Universitaria",-23.556994545736117, -46.71128997923624);
+        Estacao cidadeUniversitaria = new Estacao("Cidade Universitária",-23.556994545736117, -46.71128997923624);
         //pinheiros
         Estacao hebraicaReboucas = new Estacao("Hebraica - Rebouças",-23.573030390852338, -46.69798389525909);
         Estacao cidadeJardim = new Estacao("Cidade Jardim", -23.585281045827312, -46.69101363009335);
